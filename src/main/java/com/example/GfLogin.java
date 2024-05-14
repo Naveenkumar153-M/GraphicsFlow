@@ -52,6 +52,7 @@ public class GfLogin extends BaseClass{
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
+
             WebElement gfSideBar = driver.findElement(By.cssSelector(".logo.graphics-flow"));
             waitForElement(gfSideBar);
             return gfSideBar.isDisplayed();
@@ -74,16 +75,12 @@ public class GfLogin extends BaseClass{
             waitAndClick(createBtn);
             WebElement spinner = driver.findElement(By.cssSelector("mat-spinner"));
             waitForAppearAndlDisappear(spinner);
-            // waitForElement(spinner);
-            // waitUntillDisappear(spinner);
 
             WebElement input=driver.findElement(By.cssSelector("gf-file-input input"));
             input.sendKeys("/Users/calibraintpvt/Documents/BDD_Java_Selnenium/bdd_java_selenium/src/main/java/TestData/TWEDAerwrewdeewd@4retrtferf_rferfr.png");
             WebElement uploadSpinner = driver.findElement(By.cssSelector("mat-spinner"));
 
             waitForAppearAndlDisappear(uploadSpinner);
-            // waitForElement(uploadSpinner);
-            // waitUntillDisappear(uploadSpinner);
 
             WebElement art = driver.findElement(By.cssSelector("gf-approval-detail-item"));
             waitForElement(art);
