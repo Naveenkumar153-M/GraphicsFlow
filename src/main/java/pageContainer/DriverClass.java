@@ -1,4 +1,4 @@
-package com.pageContainer;
+package pageContainer;
 
 import java.time.Duration;
 import org.openqa.selenium.WebDriver;

@@ -1,4 +1,4 @@
-package com.pageContainer;
+package pageContainer;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
