@@ -23,7 +23,9 @@ public static void init() {
         driver = new ChromeDriver(options);
         baseClass=new BaseClass(driver);
         // lg = new gfLogin(driver);
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+    // lg = new gfLogin(driver);
+    // lg = new gfLogin(driver);
+    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         wait= new WebDriverWait(driver, Duration.ofSeconds(10));
 
 

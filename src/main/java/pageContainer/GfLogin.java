@@ -77,7 +77,7 @@ public class GfLogin extends BaseClass{
             waitForAppearAndlDisappear(spinner);
 
             WebElement input=driver.findElement(By.cssSelector("gf-file-input input"));
-            input.sendKeys("/Users/calibraintpvt/Documents/BDD_Java_Selnenium/bdd_java_selenium/src/main/java/TestData/TWEDAerwrewdeewd@4retrtferf_rferfr.png");
+            input.sendKeys("/Users/calibraintpvt/Documents/GraphicsFlow/GraphicsFlow/src/main/java/TestData/Images/IMG_0701-2-2.jpg");
             WebElement uploadSpinner = driver.findElement(By.cssSelector("mat-spinner"));
 
             waitForAppearAndlDisappear(uploadSpinner);
